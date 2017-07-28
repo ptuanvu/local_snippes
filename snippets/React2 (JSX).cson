@@ -1,0 +1,28 @@
+".source.js":
+  "React: import React Router":
+    prefix: "_irt"
+    body: "import { FlowRouter } from 'meteor/kadira:flow-router';"
+
+  "React: import App Core":
+    prefix: "_iac"
+    body: "import { App } from 'meteor/app-core';"
+
+  "React: import Meteor":
+    prefix: "_imt"
+    body: "import { Meteor } from 'meteor/meteor';"
+
+  "React: import createContainer":
+    prefix: "_ictn"
+    body: "import { createContainer } from 'meteor/react-meteor-data';"
+
+  "React: import Bert":
+    prefix: "_ib"
+    body: "import { Bert } from 'meteor/themeteorchef:bert';"
+
+  "React: import Default":
+    prefix: "_idf"
+    body: "import React from 'react';\nimport { Meteor } from 'meteor/meteor';\nimport { createContainer } from 'meteor/react-meteor-data';\nimport { App } from 'meteor/app-core';"
+
+  "React: import PropTypes":
+    prefix: "_ipt"
+    body: "import PropTypes from 'prop-types';"
