@@ -26,3 +26,15 @@
   "React: import PropTypes":
     prefix: "_ipt"
     body: "import PropTypes from 'prop-types';"
+
+  "React: import Mongo":
+    prefix: "_img"
+    body: "import { Mongo } from 'meteor/mongo';"
+
+  "React: import Meteor check":
+    prefix: "_imc"
+    body: "import { check } from 'meteor/check';"
+
+  "React: import Simple Schema":
+    prefix: "_isc"
+    body: "import { SimpleSchema } from 'meteor/aldeed:simple-schema';"
