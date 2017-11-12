@@ -38,3 +38,11 @@
   "React: import Simple Schema":
     prefix: "_isc"
     body: "import { SimpleSchema } from 'meteor/aldeed:simple-schema';"
+
+  "React: generate Bert alert":
+    prefix: "_bal"
+    body: "Bert.alert('${1}', '${2}', 'growl-top-right');"
+
+  "React: generate ValidatedMethod":
+    prefix: "_vm"
+    body: "import { ValidatedMethod } from 'meteor/mdg:validated-method';\nimport { App } from 'meteor/app-core';\nimport { Meteor } from 'meteor/meteor';\nimport { SimpleSchema } from 'meteor/aldeed:simple-schema';\n\nexport const ${1} = new ValidatedMethod({\nname: '${2}',\nvalidate: new SimpleSchema({\n${3}\n}).validator(),\nrun({ ${4} }) {\n${5}\n}\n});\n"
